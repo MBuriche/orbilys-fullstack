@@ -4,7 +4,9 @@
   "description": "Backend NestJS para Orbylis Dashboard",
   "scripts": {
     "start": "nest start",
-    "start:dev": "nest start --watch"
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "start:prod": "node dist/main"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
@@ -21,3 +23,4 @@
     "typescript": "^5.2.2"
   }
 }
+
